@@ -7,3 +7,4 @@ if __name__ == '__main__':
     y = np.sin(x*np.pi)
     ax.plot(x,y)
     plt.show()
+    fig.savefig("cat_function.png")
